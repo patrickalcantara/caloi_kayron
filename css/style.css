@@ -24,3 +24,52 @@ header {
 #menu a:hover {
   color: #999;
 }
+
+section {
+  display: grid;
+  justify-items: center;
+}
+
+#conteudo-um img {
+  width: 400px;
+}
+
+#conteudo-dois img {
+  width: 400px;
+}
+
+#conteudo-um {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+#conteudo-dois {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+#conteudo-dois div {
+  text-align: right;
+}
+
+#conteudo-um p {
+  color: #888;
+}
+
+#conteudo-dois p {
+  color: #888;
+}
+
+#conteudo-um h2 {
+  margin: 10px 0;
+}
+
+#conteudo-dois h2 {
+  margin: 10px 0;
+}
